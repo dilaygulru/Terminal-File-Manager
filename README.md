@@ -39,7 +39,7 @@ Make sure to update the `logger.c` file to specify the correct log file path for
 ### Running the Program
 After building the project, you can run the program with the following command:
 ```bash
-./bin/terminal_file_manager
+./bin/file_manager
 ```
 
 The program will prompt you to enter commands for file and directory operations. Use the list of available commands as shown above to interact with the program.
