@@ -1,7 +1,3 @@
-Here's a clean and professional README for your project, formatted with tables and necessary explanations. It also includes instructions on modifying the `logger` file's path and using the `make` file.
-
----
-
 # Terminal Based File Manager
 
 ## Project Overview
@@ -85,7 +81,3 @@ project_directory/
 
 ## Conclusion
 This project offers a simple and effective way to manage files and directories through a terminal. It helps in understanding key system calls in Linux/Unix and provides an opportunity to develop modular and maintainable code.
-
----
-
-Let me know if you need further customization!
