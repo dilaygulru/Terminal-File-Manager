@@ -67,16 +67,20 @@ exit
 project_directory/
 │
 ├── bin/
-│   └── terminal_file_manager    # Executable file
+│   └── file_manager             # Executable file
 ├── src/
 │   ├── main.c                   # Controls the flow of the program
 │   ├── file_operations.c        # Handles file operations (read, write, copy, move)
+│   ├── file_operations.h        # Header for file_operations.c
 │   ├── directory_ops.c          # Manages folder operations (create, delete, list)
+│   ├── directory_ops.h          # Header for directory_ops.c
 │   ├── permissions.c            # Manages file/folder permissions
+│   ├── permissions.h            # Header for permissions.c
 │   ├── logger.c                 # Logs operations to a file
-│   └── utils.c                  # Utility functions (optional)
-├── Makefile                      # Makefile to build the project
-└── README.md                     # This file
+│   └── logger.h                 # Header for logger.c
+├── operations.log               # Log file for operations
+└── Makefile                    # Makefile to build the project
+
 ```
 
 ## Conclusion
